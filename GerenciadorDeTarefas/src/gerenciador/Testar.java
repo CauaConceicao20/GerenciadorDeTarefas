@@ -24,7 +24,7 @@ public class Testar {
 		System.out.println("5- Sair do Sistema");
 		
 		int opcao = teclado.nextInt();
-		if(opcao > 5 || opcao < 0) {
+		if(opcao > 5 || opcao < 1) {
 			System.out.println("[Não existe esta opçao]");
 		}
 		
